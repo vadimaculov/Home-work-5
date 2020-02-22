@@ -29,17 +29,6 @@
     width: 50%;
     position: relative;
   }
-/*
-   .foto {
-    border: 2px solid black;
-    border-radius: 10px;
-    height: 180px;
-    width: 240px;
-    position: absolute;
-    top: 0;
-    margin: 40px;
-  }
-*/
 
   .image {
     width: 240px;
@@ -61,13 +50,27 @@
     width: 17%;
   }
   
-  .bott {
-    clear: both;
-    background-color: #D7E9FF;
-    height: 200px; 
-  }
   
   .clear {
     float: both;
   }
   
+  .flex-container {
+    background-color: #D5EAFD;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0;
+
+  }
+
+  .flex-item {
+      background: #B3D6FF;
+      padding: 10px;
+      width: 30%;
+      height: 150px;
+      margin: 10px;
+      padding: 10px;
+
+  }
